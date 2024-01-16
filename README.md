@@ -18,7 +18,7 @@ The Flask application facilitates user interaction, where the input city name tr
 ---
 
 ## Project Structure
-
+```
 |
 |__
    data 
@@ -28,6 +28,7 @@ The Flask application facilitates user interaction, where the input city name tr
 |
 |__
    src
+```
 
 - /data: Contains retrieved and processed data for one city as an example.
 - /env: Contains the Conda environment files for this project.
