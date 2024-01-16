@@ -1,0 +1,12 @@
+{
+    "reddit": {
+      "client_id": "",
+      "client_secret": "",
+      "redirect_uri": "",
+      "username": "",
+      "password": ""
+    },
+    "news_api": {
+      "api_key": ""
+    }
+  }
