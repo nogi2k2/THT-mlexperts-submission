@@ -21,10 +21,10 @@ The Flask application facilitates user interaction, where the input city name tr
 
 |
 |__
-|  data 
+   data 
 |
 |__
-|  env
+   env
 |
 |__
    src
