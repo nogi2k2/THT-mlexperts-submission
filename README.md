@@ -18,20 +18,19 @@ The Flask application facilitates user interaction, where the input city name tr
 ---
 
 ## Project Structure
-```
+
 |
 |__
-   data 
+|  data 
 |
 |__
-   env
+|  env
 |
 |__
    src
-```
 
 - /data: Contains retrieved and processed data for one city as an example.
-- /env: Contains the Conda environment files for this project.
+- /env: Contains the Conda environment .yml file for this project.
 - /src: Contains the source code.
 
 ---
@@ -45,7 +44,8 @@ The Flask application facilitates user interaction, where the input city name tr
 
 - Clone the repository using `git clone`.
 - Change directory to the cloned repository `cd <repository-name>`.
-- Activate the Conda environment `conda activate ./env`.
+- Create Conda enviorment using .yml file `conda env create --name <enviorment-name> -f env_file/enviorment.yml`.
+- Activate the Conda enviorment `conda activate <enviorment-name>`
 - Run the Flask app `python app.py`.
 - Enter the city name, choose the API and data sources, and the analysis results are displayed.
 
